@@ -111,6 +111,7 @@ export const SimpleCounterBonus = () => {
                     </div>
                 </div>
             <div className="big-counter">
+            <div><i className={status.icon}/></div>
             {/* Days */}
                 <div>{Math.floor(counter / 288000000 % 10)}d</div>
                 <div>{' '}</div>
