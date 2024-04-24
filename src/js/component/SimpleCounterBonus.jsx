@@ -27,6 +27,7 @@ export const SimpleCounterBonus = () => {
                        icon: "fas fa-stopwatch", 
                        title:"Chronometer", 
                        titleStyle:"text-center text-primary"});
+            // Intentando meter un delay en la activación de luces pero sin éxito
             // setTimeout(setStatus, 1000, "redLight2");
             // setTimeout(setStatus, 2000, "redLight3");
             // setTimeout(setStatus, 3000, "orangeLight");

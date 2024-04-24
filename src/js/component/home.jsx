@@ -4,7 +4,6 @@ import React from "react";
 
 
 // Componentes
-// import { TrafficLight } from "./RaceTrafficLights";
 import { SimpleCounterBonus } from "./SimpleCounterBonus";
 
 
@@ -12,7 +11,6 @@ import { SimpleCounterBonus } from "./SimpleCounterBonus";
 const Home = () => {
 	return (
 		<div className="text-center">
-		{/* <TrafficLight /> */}
 		<SimpleCounterBonus />
 		</div>
 	);
